@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Tech Tool Voice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Robert Tech Tool Voice</h1>
+        <div class="columns">
+            <div class="left-column">
+                <h2>Script Input</h2>
+                <textarea id="scriptInput" placeholder="Enter your script here...\n\nExample:\nSpeaker 1: Hello, how are you?\nSpeaker 2: I'm good, thanks! What about you?">></textarea>
+                <div id="speakerList"></div>
+            </div>
+            <div class="right-column">
+                <h2>Voice Mapping & Settings</h2>
+                <div id="voiceMapping"></div>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button id="generateAudio" class="generate-btn">Generate Audio</button>
+            <button id="downloadAll" class="download-btn" disabled>Download All Audio</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

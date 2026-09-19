@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.columns {
+    display: flex;
+    gap: 20px;
+}
+.left-column, .right-column {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.speaker-row {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #fafafa;
+}
+.speaker-row h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.control-group {
+    margin-bottom: 10px;
+}
+.control-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.control-group select,
+.control-group input[type="range"] {
+    width: 100%;
+}
+.preview-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.action-buttons {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.generate-btn {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.download-btn {
+    background: #2196F3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.generation-status {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+}
+.generation-status.active {
+    background: #fff3cd;
+    border: 1px solid #ffeeba;
+}
+.generation-status.success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
